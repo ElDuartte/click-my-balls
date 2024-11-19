@@ -1,4 +1,67 @@
-body{
+body {
   background-color: rgb(53, 49, 49);
   color: whitesmoke !important;
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "ROND";
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-side {
+  width: 25%;
+}
+
+.container-center {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-reset-container{
+  text-align: center;
+}
+
+#title {
+  font-size: 5rem;
+}
+
+#game-score {
+  font-size: 2rem;
+}
+
+#balls-button {
+  background-color: #1652f0;
+  border: 1px solid #1652f0;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: 1.15;
+  overflow: visible;
+  border-radius: 100%;
+  border: gray solid 20px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  height: 600px;
+  width: 600px;
+}
+
+#balls-button:hover {
+  background-color: #0a46e4;
+  border: gray solid 20px;
+}
+
+#balls-button:active {
+  background-color: #0039d7;
+  border: gray solid 20px;
+  transform: translateY(15px);
 }

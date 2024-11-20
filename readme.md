@@ -11,6 +11,6 @@
 
 To start the server
 
-`sudo npm i -g live-server
+`sudo npm i -g live-server`
 
-`live-server .
+`live-server .`

@@ -28,4 +28,4 @@ function updateUI() {
   console.log('this is ui')
 }
 
-export default updateUI();
+export default updateUI;

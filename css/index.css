@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(53, 49, 49);
   color: whitesmoke !important;
@@ -6,6 +11,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "ROND";
+  overflow-x: none;
 }
 
 .container {
@@ -26,6 +32,7 @@ body {
 
 .title-reset-container{
   text-align: center;
+  margin-bottom: 100px;
 }
 
 #title {
@@ -64,4 +71,17 @@ body {
   background-color: #0039d7;
   border: gray solid 20px;
   transform: translateY(15px);
+}
+
+.container-side{
+  height: 100vh;
+  background-color: white;
+}
+
+.container-side--left{
+  background-color: red;
+}
+
+.container-side--right{
+  background-color: yellow;
 }

@@ -9,6 +9,9 @@
   - Farms?
   - Factory?
 
+To install package:
+
+`npm install -g live-server`
 
 To start the server
 

@@ -2,6 +2,7 @@
 
 - Design the UI (Figma?)
 - ~~Add Click animation~~
+- Every second adds a click, if the user also click adds another one
 
 ## For idle part of the game
 - How is the progression is going to work?
